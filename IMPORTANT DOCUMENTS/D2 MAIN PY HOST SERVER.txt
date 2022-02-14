@@ -1,0 +1,12 @@
+1> Here different server has created.
+----> from wsgiref import simple_server
+----> httpd = simple_server.make_server(host, port, app)
+
+three argument required where simple_server is imported and make_server is 
+method used for this.
+
+2> host = '0.0.0.0'    --> local address
+3> port = int(os.getenv("PORT",5000))   --> if port not available than take it 5000 as mentioned
+4> httpd.serve_forever()
+
+5> However this will give error while deploying application on heroku platform

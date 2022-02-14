@@ -1,0 +1,8 @@
+step 1 :: spot red dot at which line wants to stop command
+step 2 :: run file with debug run
+
+Now for next stpes following button used:
+1> /`> kind of button move to next line
+2> down arrow show internal library code
+3> down arrow with dased line show excecution of function written by devloper
+4> up arrow will skip the function

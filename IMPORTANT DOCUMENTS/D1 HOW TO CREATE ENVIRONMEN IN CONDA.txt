@@ -1,0 +1,23 @@
+To create conda environment :
+
+1> conda create -n <env_name> python==3.7
+
+2> press "Y"
+
+3> To activate environment : conda activate <env_name>
+
+4> To deactivate environment : conda deactivate <env_name>
+
+5> To configure conda env in pycharm: 
+  File>setting>project>python interpreter>gear icon>add>conda env>existing env>
+  
+  if environment not visible there than paste following path:
+  --> C:\Users\<user_name>\anaconda3\envs\<env_name>python.exe
+
+6> Open terminal in pycharm (at bottom it is located)
+   Name of env can be seen here.
+
+7> To  list all environment: conda env list
+
+8>  To install all library automatically just use:
+    pip install -r requirements.txt 

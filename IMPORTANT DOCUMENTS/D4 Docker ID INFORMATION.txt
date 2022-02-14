@@ -1,0 +1,11 @@
+Docker_id :
+  USER_NAME : 1697107
+  PASSWORD : Chi_12345
+  Email : patelchintan1697107@gmail.com
+
+Circle.Ci :
+  Linked With Github Id
+
+Heroku and Github :
+  Email : patelchintan1697107@gmail.com
+  password : Chi_12345
